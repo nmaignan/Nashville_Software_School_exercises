@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CSS and the Cascade</title>
+  <style>
+    p {
+      color:blue;
+      font-family: Times;
+      font-size: 8px;
+}
+    .red{
+      color:red;
+      font-size: 16px;
+}
+    #special{
+      font-family: Arial;
+      font-size: 24px;
+}
+  </style>
+</head>
+
+<body>
+  <p>Paragraph</p>
+  <p class ="green">Paragraph</p>
+  <p class ="red">Paragraph</p>
+  <p class ="red" id ="special">Paragraph</p>
+
+  <h3>Cascading</h3>
+  <h4>Styles cascade down until they run into a new rule that is more specific.</h4>
+  <h5>Why do each p tag display the way it does?</h5>
+
+
+
+
+</body>
+</html>

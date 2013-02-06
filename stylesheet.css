@@ -1,0 +1,20 @@
+h1 {color: red;
+	font-size: 24pt;
+}
+
+
+h2 {color: blue;
+	font-size: 14pt;
+}
+
+ul {text-align: left;
+	list-style-type: none;
+	display: inline;
+	font-size: 14pt;
+	background-color:red;
+}
+
+li {float:left;
+	margin-left:70px;
+}
+	
